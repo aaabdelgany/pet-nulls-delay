@@ -22,5 +22,5 @@ resource "random_password" "password" {
 }
 
 output "name" {
-  value = random_pet.this.id
+  value = jsondecode("breakme")
 }
